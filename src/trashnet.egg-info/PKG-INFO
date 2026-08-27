@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: trashnet
+Version: 1.0.0
+Summary: Flush or bin: real-time trash flushability recognition for a restroom cleaning robot
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: opencv-python-headless
+Requires-Dist: OpenEXR
+Requires-Dist: timm
+Requires-Dist: torch

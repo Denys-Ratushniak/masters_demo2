@@ -1,0 +1,7 @@
+numpy
+scipy
+scikit-learn
+opencv-python-headless
+OpenEXR
+timm
+torch

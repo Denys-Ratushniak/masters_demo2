@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trashnet"
+version = "1.0.0"
+description = "Flush or bin: real-time trash flushability recognition for a restroom cleaning robot"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "opencv-python-headless",
+    "OpenEXR",
+    "timm",
+    "torch",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
