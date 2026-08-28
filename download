@@ -1,0 +1,14 @@
+.venv/
+results/
+figures/out/
+cache/
+__pycache__/
+*.pyc
+*.egg-info/
+robots.json
+figures/
+trash_dataset*/
+*.npz
+*.exr
+*.jpg
+*.zip
